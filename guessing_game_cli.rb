@@ -1,4 +1,4 @@
-#require 'pry'
+require 'pry'
 def run_guessing_game
   #puts "Guess a number between 1 and 6."
   number = rand(1..6)
@@ -11,7 +11,7 @@ def run_guessing_game
   else
     puts "Sorry! The computer guessed #{number+1}."
   end
-  #binding.pry
+  binding.pry
 
 end
 
