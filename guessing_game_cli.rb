@@ -11,11 +11,11 @@ def run_guessing_game
   else
     puts "Sorry! The computer guessed #{number+1}."
   end
-  binding.pry
+  #binding.pry
 
 end
 
-run_guessing_game
+#run_guessing_game
 
 # binding.pry
 #   while input != "exit" do
