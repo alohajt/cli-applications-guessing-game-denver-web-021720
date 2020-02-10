@@ -15,7 +15,7 @@ def run_guessing_game(input)
 
 end
 
-run_guessing_game(input)
+run_guessing_game(2)
 
 # binding.pry
 #   while input != "exit" do
