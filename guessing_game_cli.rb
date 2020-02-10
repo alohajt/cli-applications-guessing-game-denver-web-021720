@@ -1,10 +1,10 @@
 require 'pry'
-def run_guessing_game(input = 2)
+def run_guessing_game(input)
   #puts "Guess a number between 1 and 6."
   number = rand(1..6)
   input = gets.chomp
 
-  if input_to_i == number
+  if input.to_i == number
     puts "You guessed the correct number!\n"
     elsif input == 'exit'
     puts "Goodbye!"
